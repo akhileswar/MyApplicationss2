@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.akhil.breuna.myapplicationss.Sign">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        app:srcCompat="@drawable/images" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="184dp"
+        android:width="330dp"
+        android:background="@drawable/btn"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_below="@+id/editText3"
+        android:layout_marginTop="17dp"
+        android:width="330dp"
+        android:background="@drawable/btn"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ed"
+        android:text="Sign-IN"
+        android:textColorLink="@color/common_google_signin_btn_text_dark_default"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText4"
+        android:layout_below="@+id/editText4"
+        android:layout_marginTop="11dp"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_red_dark"
+        android:textColorLink="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+</RelativeLayout>
